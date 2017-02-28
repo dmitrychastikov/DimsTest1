@@ -19,7 +19,9 @@ namespace WinFormsTestApp1
 
 		private void button1_Click( object sender, EventArgs e )
 		{
-			MessageBox.Show( "Hello world!" );
+			String caption = "HELLO";
+			String text = "Hello world!";
+			MessageBox.Show( text , caption, MessageBoxButtons.OK );
 		}
 	}
 }
