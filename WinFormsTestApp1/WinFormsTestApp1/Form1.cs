@@ -19,7 +19,7 @@ namespace WinFormsTestApp1
 
 		private void button1_Click( object sender, EventArgs e )
 		{
-			String caption = "HELLO";
+			String caption = MyClass1.GetCaption();
 			String text = "Hello world!";
 			MessageBox.Show( text , caption, MessageBoxButtons.OK );
 		}
