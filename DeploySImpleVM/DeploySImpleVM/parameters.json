@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "Dima"
+    },
+    "adminPassword": {
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/01530606-aa01-4b11-a928-400ad78bcaa9/resourceGroups/BC-Dev/providers/Microsoft.KeyVault/vaults/BC-Dev-Vault"
+        },
+        "secretName": "adminPassword"
+      }
+    }
+  }
+}
