@@ -10,7 +10,7 @@ namespace WinFormsTestApp1
 	{
 		public static string GetCaption()
 		{
-			return "Feature TWO";
+			return "Feature TWO again";
 		}
 	}
 }
